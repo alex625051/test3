@@ -11,7 +11,6 @@ app.register_blueprint(api_bp, url_prefix='/api')
 @app.errorhandler(404)
 def page_not_found(e):
     return {"message": "not found", "error": "404", "api":"/api/gravatars"}, 404
-app.run(debug=True)
 
 
 
