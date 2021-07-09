@@ -5,3 +5,4 @@ marshmallow
 flask_marshmallow
 libgravatar
 requests
+gunicorn==20.1.0
